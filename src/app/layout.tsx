@@ -24,16 +24,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | M2',
-    default: 'M2'
+    template: '%s | Thana',
+    default: 'Thana'
   },
   keywords:'Skirt For Women, Trouser For Men, Kid Clothes, E-commerce, products, selling product',
   description: "M2 is the best platform for selling products in ecommerce modern website for Cambodian people.",
   openGraph: 
     {
-      title:'M2' ,
-      description: 'M2 is the best platform for selling products in ecommerce modern website for Cambodian people.',
-      images: ['/M2_Thumbnail.png'],
+      title:'Thana x who' ,
+      description: 'Thana shop smile all time.',
+      images: ['/thumnail.jpg'],
     }
 };
 
