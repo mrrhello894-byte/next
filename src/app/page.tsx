@@ -15,7 +15,7 @@ export default function Home() {
     <h2>Shopping Now</h2>
 
     {/* using button from shadcn ui */}
-    <Button className={'bg-red-500'}>Button</Button>
+    {/* <Button className={'bg-red-500'}>Button</Button> */}
 
     {/* calling card component */}
      <CardDemo/>
