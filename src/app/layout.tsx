@@ -77,9 +77,7 @@ const geistMono = Geist_Mono({
 
 // 1. Define your domain for absolute URL resolution
 const siteUrl = "https://thana-x-who.vercel.app/product";
-
 export const metadata: Metadata = {
-  // 2. Add metadataBase to fix relative paths for social crawlers
   metadataBase: new URL(siteUrl),
   title: {
     template: '%s | Thana',
@@ -95,9 +93,8 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        // 3. Update the filename to match your new file in the public/ directory
-        url: '/thumnail.jpg', 
-        width: 1200,
+        url: '/thumbnail.jpg',  
+        width: 1200,          
         height: 630,
         alt: 'Thana E-commerce - Smile All',
       },
@@ -105,7 +102,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['/thumnail.jpg'], // Keep this matching the OG image
+    images: ['/thumbnail.jpg'], // 👈 Fixed spelling
   },
 };
 
